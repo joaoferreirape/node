@@ -1,8 +1,3 @@
-# NodeJS LDAP
-
-Projeto simples para autenticação no servidor de Active Directory
-
-```js
 var ActiveDirectory = require('activedirectory');
 var config = {
   url: ['ldap://aaa.bbb.ccc.ddd'],
@@ -24,4 +19,3 @@ ad.authenticate(username, password, function(err, auth) {
     console.log('Falha na autenticação!');
   }
 });
-```
